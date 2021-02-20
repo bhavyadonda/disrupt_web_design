@@ -1,0 +1,760 @@
+.mediaViewInfo {
+	--web-view-name: Home;
+	--web-view-id: Home;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-refresh-for-changes: true;
+	--web-application: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Home;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+.Home_Class {
+	position: absolute;
+	width: 1920px;
+	height: 3617px;
+	background-color: rgba(34,44,53,1);
+	overflow: hidden;
+	--web-view-name: Home;
+	--web-view-id: Home;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-refresh-for-changes: true;
+	--web-application: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+.Bottom_Nav_Bar_Class {
+	position: absolute;
+	width: 1920px;
+	height: 338.679px;
+	left: 0px;
+	top: 3278.321px;
+	overflow: visible;
+}
+.Bottom_Nav_Box_Class {
+	fill: rgba(16,22,28,1);
+}
+.Bottom_Nav_Box {
+	overflow: visible;
+	position: absolute;
+	width: 1920px;
+	height: 338.679px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Elements_Class {
+	position: absolute;
+	width: 1507px;
+	height: 228.317px;
+	left: 161px;
+	top: 38.683px;
+	overflow: visible;
+}
+.MI_Logo_Class {
+	position: absolute;
+	width: 115px;
+	height: 114.635px;
+	left: 741.5px;
+	top: 0px;
+	overflow: visible;
+}
+.EMAIL_Class {
+	left: 59px;
+	top: 20.317px;
+	position: absolute;
+	overflow: visible;
+	width: 100px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+.CONTACT_US_Class {
+	left: 308px;
+	top: 20.317px;
+	position: absolute;
+	overflow: visible;
+	width: 202px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+.ADDRESS_Class {
+	left: 1089px;
+	top: 20.317px;
+	position: absolute;
+	overflow: visible;
+	width: 153px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+.SOCIAL_Class {
+	left: 1391px;
+	top: 20.317px;
+	position: absolute;
+	overflow: visible;
+	width: 117px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+.Mail_Class {
+	left: -10px;
+	top: 102.317px;
+	position: absolute;
+	overflow: visible;
+	width: 219px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(200,200,200,1);
+}
+.ID123456789_Class {
+	left: 340px;
+	top: 102.317px;
+	position: absolute;
+	overflow: visible;
+	width: 107px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(200,200,200,1);
+}
+.Facebook_Class {
+	left: 1399px;
+	top: 102.317px;
+	position: absolute;
+	overflow: visible;
+	width: 102px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(200,200,200,1);
+}
+.YouTube_Class {
+	left: 1405px;
+	top: 136.317px;
+	position: absolute;
+	overflow: visible;
+	width: 90px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(200,200,200,1);
+}
+.Instagram_Class {
+	left: 1396.5px;
+	top: 170.317px;
+	position: absolute;
+	overflow: visible;
+	width: 107px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(200,200,200,1);
+}
+.Twitter_Class {
+	left: 1412.5px;
+	top: 204.317px;
+	position: absolute;
+	overflow: visible;
+	width: 74px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(200,200,200,1);
+}
+.Dalvi_Nagar_Bandra_West_Mumbai_Class {
+	left: 1030px;
+	top: 102.317px;
+	position: absolute;
+	overflow: visible;
+	width: 271px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(200,200,200,1);
+}
+.MI_Boom_Class {
+	position: absolute;
+	width: 1920px;
+	height: 1009.3px;
+	left: 0px;
+	top: 2145px;
+	overflow: visible;
+}
+.Boom_Square_Image_Class {
+	filter: drop-shadow(-10px 10px 10px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	width: 1189px;
+	height: 1009.3px;
+	left: 731px;
+	top: 0px;
+	overflow: visible;
+}
+.MI_Boom_Text_Box_Class {
+	fill: rgba(255,103,9,1);
+}
+.MI_Boom_Text_Box {
+	filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 905px;
+	height: 830px;
+	left: 0px;
+	top: 85px;
+}
+.MI_Boom_Text_Class {
+	position: absolute;
+	width: 511px;
+	height: 215px;
+	left: 83px;
+	top: 305px;
+	overflow: visible;
+}
+.Speaker_2_Class {
+	position: absolute;
+	width: 235px;
+	height: 81px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.MI_Boom__Class {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 236px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: rgba(0,0,0,1);
+}
+.Line_Class {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 10px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line {
+	overflow: visible;
+	position: absolute;
+	width: 200px;
+	height: 10px;
+	left: 0px;
+	top: 81px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.The_Mini_Boombox_Take_the_part_Class {
+	left: 0px;
+	top: 141px;
+	position: absolute;
+	overflow: visible;
+	width: 512px;
+	height: 74px;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+.View_Details_Class {
+	position: absolute;
+	width: 278.693px;
+	height: 37px;
+	left: 496.307px;
+	top: 755px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: view;
+	--web-action-target: MI_Boom_Red;
+	cursor: pointer;
+}
+.VIEW_DETAILS_Class {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 225px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+.Arrow_Class {
+	fill: rgba(0,0,0,1);
+}
+.Arrow {
+	overflow: visible;
+	position: absolute;
+	width: 23.754px;
+	height: 29.693px;
+	transform: translate(-496.307px, -3073px) matrix(1,0,0,1,748.2761,3076.6533) rotate(270deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+.MI_Mini_Class {
+	position: absolute;
+	width: 2573px;
+	height: 1006px;
+	left: -840px;
+	top: 1035px;
+	overflow: visible;
+}
+.View_Details_bg_Class {
+	position: absolute;
+	width: 278.693px;
+	height: 37px;
+	left: 2294.307px;
+	top: 861px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: view;
+	--web-action-target: MI_Mini;
+	cursor: pointer;
+}
+.VIEW_DETAILS_bh_Class {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 225px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,103,9,1);
+}
+.Arrow_bi_Class {
+	fill: rgba(255,103,9,1);
+}
+.Arrow_bi {
+	overflow: visible;
+	position: absolute;
+	width: 23.754px;
+	height: 29.693px;
+	transform: translate(-280px, -882px) matrix(1,0,0,1,531.9693,885.6533) rotate(270deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+.Mini_Oval_Iamge_Class {
+	filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	width: 2000px;
+	height: 1006px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.MI_Mini_Text_Class {
+	position: absolute;
+	width: 511px;
+	height: 215px;
+	left: 2062px;
+	top: 186px;
+	overflow: visible;
+}
+.A_powerful_speaker_that_fits_i_Class {
+	left: 0px;
+	top: 141px;
+	position: absolute;
+	overflow: visible;
+	width: 512px;
+	height: 74px;
+	text-align: right;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+.MI_Mini_bm_Class {
+	left: 320px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 192px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: rgba(255,255,255,1);
+}
+.Line_bn_Class {
+	fill: rgba(0,0,0,0);
+	stroke: rgba(255,255,255,1);
+	stroke-width: 10px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_bn {
+	overflow: visible;
+	position: absolute;
+	width: 150px;
+	height: 10px;
+	left: 358px;
+	top: 81px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.View_Products_Class {
+	position: absolute;
+	width: 323.693px;
+	height: 37px;
+	left: 255.153px;
+	top: 881px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: view;
+	--web-action-target: Products;
+	cursor: pointer;
+}
+.VIEW_PRODUCTS_Class {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 270px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,103,9,1);
+}
+.Arrow_bq_Class {
+	fill: rgba(255,103,9,1);
+}
+.Arrow_bq {
+	overflow: visible;
+	position: absolute;
+	width: 23.754px;
+	height: 29.693px;
+	transform: translate(-235px, -883px) matrix(1,0,0,1,531.9693,886.6533) rotate(270deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+.Intro_Text_Class {
+	position: absolute;
+	width: 534px;
+	height: 353px;
+	left: 160px;
+	top: 411px;
+	overflow: visible;
+}
+.X_I_A_O_M_I_I_N_D_I_A_Class {
+	left: 30px;
+	top: 36px;
+	position: absolute;
+	overflow: visible;
+	width: 505px;
+	height: 223px;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 90px;
+	color: rgba(255,255,255,1);
+}
+.Lorem_ipsum_dolor_sit_amet_con_Class {
+	left: 0px;
+	top: 279px;
+	position: absolute;
+	overflow: visible;
+	width: 512px;
+	height: 74px;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(200,200,200,1);
+}
+.W_E_L_C_O_M_E_____TO__Class {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 310px;
+	height: 26px;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(200,200,200,1);
+}
+.X_I_A_O_M_I_Class {
+	left: 417px;
+	top: 147px;
+	position: absolute;
+	overflow: visible;
+	width: 264px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: rgba(255,255,255,1);
+}
+.MI_Logo_bw_Class {
+	position: absolute;
+	width: 215px;
+	height: 214.317px;
+	left: 70px;
+	top: 70px;
+	overflow: visible;
+}
+.Landing_Image_Class {
+	filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	width: 1163.875px;
+	height: 1000.62px;
+	left: 756.125px;
+	top: 0px;
+	overflow: visible;
+}
+.Top_Nav_Bar_Class {
+	position: absolute;
+	width: 821px;
+	height: 44px;
+	left: 1049px;
+	top: 72px;
+	overflow: visible;
+}
+.Elements_bz_Class {
+	position: absolute;
+	width: 821px;
+	height: 37px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.home_Class {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 91px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+.cart_Class {
+	left: 329px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 62px;
+	white-space: nowrap;
+	transition: all 0.3s ease-out;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: view;
+	--web-action-target: Cart;
+	cursor: pointer;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+.login_Class {
+	left: 440px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 79px;
+	white-space: nowrap;
+	transition: all 0.3s ease-out;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: view;
+	--web-action-target: Login;
+	cursor: pointer;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+.sign_up_Class {
+	left: 568px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 116px;
+	white-space: nowrap;
+	transition: all 0.3s ease-out;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: view;
+	--web-action-target: Sign_Up;
+	cursor: pointer;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+.products_Class {
+	left: 140px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 140px;
+	white-space: nowrap;
+	transition: all 0.3s ease-out;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: view;
+	--web-action-target: Products;
+	cursor: pointer;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+.Burger_Menu_Class {
+	position: absolute;
+	width: 38px;
+	height: 31px;
+	left: 783px;
+	top: 3px;
+	overflow: visible;
+}
+.Rectangle_1_Class {
+	fill: rgba(0,0,0,1);
+}
+.Rectangle_1 {
+	position: absolute;
+	overflow: visible;
+	width: 38px;
+	height: 8px;
+	left: 0px;
+	top: 0px;
+}
+.Rectangle_2_Class {
+	fill: rgba(0,0,0,1);
+}
+.Rectangle_2 {
+	position: absolute;
+	overflow: visible;
+	width: 30px;
+	height: 8px;
+	left: 8px;
+	top: 12px;
+}
+.Path_2_Class {
+	fill: rgba(0,0,0,1);
+}
+.Path_2 {
+	overflow: visible;
+	position: absolute;
+	width: 23px;
+	height: 7px;
+	left: 15px;
+	top: 24px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Line_b_Class {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_b {
+	overflow: visible;
+	position: absolute;
+	width: 71px;
+	height: 5px;
+	left: 10px;
+	top: 44px;
+	transform: matrix(1,0,0,1,0,0);
+}

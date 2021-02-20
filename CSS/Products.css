@@ -1,0 +1,928 @@
+.mediaViewInfo {
+	--web-view-name: Products;
+	--web-view-id: Products;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-refresh-for-changes: true;
+	--web-application: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Products;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+.Products_Class {
+	position: absolute;
+	width: 1920px;
+	height: 2000px;
+	background-color: rgba(34,44,53,1);
+	overflow: hidden;
+	--web-view-name: Products;
+	--web-view-id: Products;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-refresh-for-changes: true;
+	--web-application: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+.Bottom_Nav_Bar_Class {
+	position: absolute;
+	width: 1920px;
+	height: 338.679px;
+	left: 0px;
+	top: 1661.321px;
+	overflow: visible;
+}
+.Bottom_Nav_Box_Class {
+	fill: rgba(16,22,28,1);
+}
+.Bottom_Nav_Box {
+	overflow: visible;
+	position: absolute;
+	width: 1920px;
+	height: 338.679px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Elements_Class {
+	position: absolute;
+	width: 1507px;
+	height: 228.317px;
+	left: 161px;
+	top: 38.683px;
+	overflow: visible;
+}
+.MI_Logo_Class {
+	position: absolute;
+	width: 115px;
+	height: 114.635px;
+	left: 741.5px;
+	top: 0px;
+	overflow: visible;
+}
+.EMAIL_Class {
+	left: 59px;
+	top: 20.317px;
+	position: absolute;
+	overflow: visible;
+	width: 100px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+.CONTACT_US_Class {
+	left: 308px;
+	top: 20.317px;
+	position: absolute;
+	overflow: visible;
+	width: 202px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+.ADDRESS_Class {
+	left: 1089px;
+	top: 20.317px;
+	position: absolute;
+	overflow: visible;
+	width: 153px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+.SOCIAL_Class {
+	left: 1391px;
+	top: 20.317px;
+	position: absolute;
+	overflow: visible;
+	width: 117px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+.Mail_Class {
+	left: -10px;
+	top: 102.317px;
+	position: absolute;
+	overflow: visible;
+	width: 219px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(200,200,200,1);
+}
+.ID123456789_Class {
+	left: 340px;
+	top: 102.317px;
+	position: absolute;
+	overflow: visible;
+	width: 107px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(200,200,200,1);
+}
+.Facebook_Class {
+	left: 1398.5px;
+	top: 102.317px;
+	position: absolute;
+	overflow: visible;
+	width: 102px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(200,200,200,1);
+}
+.YouTube_Class {
+	left: 1404.5px;
+	top: 136.317px;
+	position: absolute;
+	overflow: visible;
+	width: 90px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(200,200,200,1);
+}
+.Instagram_Class {
+	left: 1396px;
+	top: 170.317px;
+	position: absolute;
+	overflow: visible;
+	width: 107px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(200,200,200,1);
+}
+.Twitter_Class {
+	left: 1412.5px;
+	top: 204.317px;
+	position: absolute;
+	overflow: visible;
+	width: 74px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(200,200,200,1);
+}
+.Dalvi_Nagar_Bandra_West_Mumbai_Class {
+	left: 1020px;
+	top: 102.317px;
+	position: absolute;
+	overflow: visible;
+	width: 271px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(200,200,200,1);
+}
+
+.MI_Infinity_Class {
+	position: absolute;
+	width: 500px;
+	height: 960px;
+	left: 1310px;
+	top: 585px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: view;
+	--web-action-target: MI_Infinity;
+	cursor: pointer;
+}
+/*
+.MI_Infinity_Class:hover::before,
+.MI_Infinity_Class:focus-within::before {
+	transform: translateY(-4%);
+}
+.MI_Infinity_Class:hover::after,
+.MI_Infinity_Class:focus-within::after {
+	transform: translateY(-50%);
+}
+.MI_Infinity_Class:hover .MI_Infinity_Box,
+.MI_Infinity_Class:focus-within .MI_Infinity_Box {
+	transform: translateY(0);
+}
+.MI_Infinity_Class:hover .MI_Infinity_Box > *:not(.Name_Class)
+.MI_Infinity_Box:focus-within .MI_Infinity_Box > *:not(.Name_Class) {
+	opacity: 1;
+    transform: translateY(0);
+    transition-delay: calc(var(--d) / 8);
+}
+.MI_Infinity_Class:focus-within::before, .MI_Infinity_Class:focus-within::after,
+.MI_Infinity_Class:focus-within .MI_Infinity_Box,
+.MI_Infinity_Class:focus-within .MI_Infinity_Box > *:not(.Name_Class) {
+	transition-duration: 0s;
+}
+*/
+
+.MI_Infinity_Box_Class {
+	fill: rgba(255,103,9,1);
+}
+.MI_Infinity_Box {
+	position: absolute;
+	overflow: visible;
+	width: 500px;
+	height: 960px;
+	left: 0px;
+	top: 0px;
+}
+.Infinity_Image_1_Class {
+	filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.2));
+	position: absolute;
+	width: 400px;
+	height: 600px;
+	left: 50px;
+	top: 50px;
+	overflow: visible;
+}
+.Name_Class {
+	left: 50px;
+	top: 680px;
+	position: absolute;
+	overflow: visible;
+	width: 182px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(16,22,28,1);
+}
+.Rating_Class {
+	position: absolute;
+	width: 60px;
+	height: 30px;
+	left: 390px;
+	top: 737px;
+	overflow: visible;
+}
+.Rating_Box_Class {
+	fill: rgba(56,142,60,1);
+}
+.Rating_Box {
+	filter: drop-shadow(0px 3px 10px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 90px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+}
+.Star_Class {
+	fill: rgba(255,255,255,1);
+}
+.Star {
+	overflow: visible;
+	position: absolute;
+	width: 20px;
+	height: 19.021px;
+	left: 35px;
+	top: 4.979px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.ID44_Class {
+	left: 6px;
+	top: 6px;
+	position: absolute;
+	overflow: visible;
+	width: 25px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(255,255,255,1);
+}
+.Description_Class {
+	left: 50px;
+	top: 737px;
+	position: absolute;
+	overflow: visible;
+	width: 361px;
+	height: 123px;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+.ID499_Class {
+	left: 50px;
+	top: 880px;
+	position: absolute;
+	overflow: visible;
+	width: 80px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(16,22,28,1);
+}
+.Arrow_Class {
+	fill: rgba(16,22,28,1);
+}
+.Arrow {
+	overflow: visible;
+	position: absolute;
+	width: 23.754px;
+	height: 29.693px;
+	transform: translate(-1310px, -585px) matrix(1,0,0,1,1708.1228,1468.6533) rotate(270deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+.MI_Boom_Class {
+	position: absolute;
+	width: 500px;
+	height: 960px;
+	left: 710px;
+	top: 585px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: view;
+	--web-action-target: MI_Boom_Red;
+	cursor: pointer;
+}
+.MI_Boom_Box_Class {
+	fill: rgba(255,103,9,1);
+}
+.MI_Boom_Box {
+	position: absolute;
+	overflow: visible;
+	width: 500px;
+	height: 960px;
+	left: 0px;
+	top: 0px;
+}
+.Boom_Image_1_Class {
+	filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.2));
+	position: absolute;
+	width: 400px;
+	height: 600px;
+	left: 50px;
+	top: 50px;
+	overflow: visible;
+}
+.Name_bi_Class {
+	left: 46px;
+	top: 680px;
+	position: absolute;
+	overflow: visible;
+	width: 150px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(16,22,28,1);
+}
+.Rating_bj_Class {
+	position: absolute;
+	width: 60px;
+	height: 30px;
+	left: 390px;
+	top: 737px;
+	overflow: visible;
+}
+.Rating_Box_bk_Class {
+	fill: rgba(56,142,60,1);
+}
+.Rating_Box_bk {
+	filter: drop-shadow(0px 3px 10px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 90px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+}
+.Star_bl_Class {
+	fill: rgba(255,255,255,1);
+}
+.Star_bl {
+	overflow: visible;
+	position: absolute;
+	width: 20px;
+	height: 19.021px;
+	left: 35px;
+	top: 4.979px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.ID44_bm_Class {
+	left: 6px;
+	top: 6px;
+	position: absolute;
+	overflow: visible;
+	width: 25px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(255,255,255,1);
+}
+.Description_bn_Class {
+	left: 46px;
+	top: 737px;
+	position: absolute;
+	overflow: visible;
+	width: 361px;
+	height: 123px;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+.ID499_bo_Class {
+	left: 46px;
+	top: 880px;
+	position: absolute;
+	overflow: visible;
+	width: 80px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(16,22,28,1);
+}
+.Arrow_bp_Class {
+	fill: rgba(16,22,28,1);
+}
+.Arrow_bp {
+	overflow: visible;
+	position: absolute;
+	width: 23.754px;
+	height: 29.693px;
+	transform: translate(-710px, -585px) matrix(1,0,0,1,1104.1228,1468.6533) rotate(270deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+.New_Class {
+	position: absolute;
+	width: 60px;
+	height: 35px;
+	left: 370px;
+	top: 61px;
+	overflow: visible;
+}
+.Box_Class {
+	fill: rgba(200,200,200,1);
+}
+.Box {
+	position: absolute;
+	overflow: visible;
+	width: 60px;
+	height: 35px;
+	left: 0px;
+	top: 0px;
+}
+.NEW_Class {
+	left: 10px;
+	top: 8px;
+	position: absolute;
+	overflow: visible;
+	width: 41px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(255,255,255,1);
+}
+.MI_Mini_Class {
+	position: absolute;
+	width: 500px;
+	height: 960px;
+	left: 110px;
+	top: 585px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: view;
+	--web-action-target: MI_Mini;
+	cursor: pointer;
+}
+.MI_Mini_Box_Class {
+	fill: rgba(255,103,9,1);
+}
+.MI_Mini_Box {
+	position: absolute;
+	overflow: visible;
+	width: 500px;
+	height: 960px;
+	left: 0px;
+	top: 0px;
+}
+.Mini_Image_1_Class {
+	filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.2));
+	position: absolute;
+	width: 400px;
+	height: 600px;
+	left: 50px;
+	top: 50px;
+	overflow: visible;
+}
+.Name_bw_Class {
+	left: 50px;
+	top: 680px;
+	position: absolute;
+	overflow: visible;
+	width: 120px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(16,22,28,1);
+}
+.Rating_bx_Class {
+	position: absolute;
+	width: 60px;
+	height: 30px;
+	left: 390px;
+	top: 737px;
+	overflow: visible;
+}
+.Rating_Box_by_Class {
+	fill: rgba(56,142,60,1);
+}
+.Rating_Box_by {
+	filter: drop-shadow(0px 3px 10px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 90px;
+	height: 60px;
+	left: 0px;
+	top: 0px;
+}
+.Star_bz_Class {
+	fill: rgba(255,255,255,1);
+}
+.Star_bz {
+	overflow: visible;
+	position: absolute;
+	width: 20px;
+	height: 19.021px;
+	left: 35px;
+	top: 4.979px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.ID44_b_Class {
+	left: 6px;
+	top: 6px;
+	position: absolute;
+	overflow: visible;
+	width: 25px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(255,255,255,1);
+}
+.Description_b_Class {
+	left: 50px;
+	top: 737px;
+	position: absolute;
+	overflow: visible;
+	width: 401px;
+	height: 123px;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+.ID499_b_Class {
+	left: 50px;
+	top: 880px;
+	position: absolute;
+	overflow: visible;
+	width: 80px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(16,22,28,1);
+}
+.Arrow_b_Class {
+	fill: rgba(16,22,28,1);
+}
+.Arrow_b {
+	overflow: visible;
+	position: absolute;
+	width: 23.754px;
+	height: 29.693px;
+	transform: translate(-110px, -585px) matrix(1,0,0,1,504.1228,1468.6533) rotate(270deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+.New_b_Class {
+	position: absolute;
+	width: 60px;
+	height: 35px;
+	left: 370px;
+	top: 61px;
+	overflow: visible;
+}
+.Box_b_Class {
+	fill: rgba(200,200,200,1);
+}
+.Box_b {
+	position: absolute;
+	overflow: visible;
+	width: 60px;
+	height: 35px;
+	left: 0px;
+	top: 0px;
+}
+.NEW_b_Class {
+	left: 10px;
+	top: 8px;
+	position: absolute;
+	overflow: visible;
+	width: 41px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(255,255,255,1);
+}
+.PRODUCTS_Class {
+	left: 752px;
+	top: 399px;
+	position: absolute;
+	overflow: visible;
+	width: 417px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 70px;
+	color: rgba(255,255,255,1);
+}
+.X_I_A_O_M_I_Class {
+	left: 417px;
+	top: 147px;
+	position: absolute;
+	overflow: visible;
+	width: 264px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: rgba(255,255,255,1);
+}
+.MI_Logo_b_Class {
+	position: absolute;
+	width: 215px;
+	height: 214.317px;
+	left: 70px;
+	top: 70px;
+	overflow: visible;
+}
+.Top_Nav_Bar_Class {
+	position: absolute;
+	width: 821px;
+	height: 44px;
+	left: 1049px;
+	top: 72px;
+	overflow: visible;
+}
+.Elements_cb_Class {
+	position: absolute;
+	width: 821px;
+	height: 37px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.home_Class {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 91px;
+	white-space: nowrap;
+	transition: all 0.3s ease-out;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: view;
+	--web-action-target: Home;
+	cursor: pointer;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+.cart_Class {
+	left: 329px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 62px;
+	white-space: nowrap;
+	transition: all 0.3s ease-out;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: view;
+	--web-action-target: Cart;
+	cursor: pointer;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+.login_Class {
+	left: 440px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 79px;
+	white-space: nowrap;
+	transition: all 0.3s ease-out;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: view;
+	--web-action-target: Login;
+	cursor: pointer;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+.sign_up_Class {
+	left: 568px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 116px;
+	white-space: nowrap;
+	transition: all 0.3s ease-out;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: view;
+	--web-action-target: Sign_Up;
+	cursor: pointer;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+.products_Class {
+	left: 140px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 140px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+.Burger_Menu_Class {
+	position: absolute;
+	width: 38px;
+	height: 31px;
+	left: 783px;
+	top: 3px;
+	overflow: visible;
+}
+.Rectangle_1_Class {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_1 {
+	position: absolute;
+	overflow: visible;
+	width: 38px;
+	height: 8px;
+	left: 0px;
+	top: 0px;
+}
+.Rectangle_2_Class {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_2 {
+	position: absolute;
+	overflow: visible;
+	width: 30px;
+	height: 8px;
+	left: 8px;
+	top: 12px;
+}
+.Path_2_Class {
+	fill: rgba(255,255,255,1);
+}
+.Path_2 {
+	overflow: visible;
+	position: absolute;
+	width: 23px;
+	height: 7px;
+	left: 15px;
+	top: 24px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Line_Class {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line {
+	overflow: visible;
+	position: absolute;
+	width: 120px;
+	height: 5px;
+	left: 151px;
+	top: 44px;
+	transform: matrix(1,0,0,1,0,0);
+}

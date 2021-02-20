@@ -1,0 +1,645 @@
+.mediaViewInfo {
+	--web-view-name: Login;
+	--web-view-id: Login;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-refresh-for-changes: true;
+	--web-application: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Login;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+.Login_Class {
+	position: absolute;
+	width: 1920px;
+	height: 1870px;
+	background-color: rgba(34,44,53,1);
+	overflow: hidden;
+	--web-view-name: Login;
+	--web-view-id: Login;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-refresh-for-changes: true;
+	--web-application: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+.Bottom_Nav_Bar_Class {
+	position: absolute;
+	width: 1920px;
+	height: 338.679px;
+	left: 0px;
+	top: 1531.321px;
+	overflow: visible;
+}
+.Bottom_Nav_Box_Class {
+	fill: rgba(16,22,28,1);
+}
+.Bottom_Nav_Box {
+	overflow: visible;
+	position: absolute;
+	width: 1920px;
+	height: 338.679px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Elements_Class {
+	position: absolute;
+	width: 1507px;
+	height: 228.317px;
+	left: 161px;
+	top: 38.683px;
+	overflow: visible;
+}
+.MI_Logo_Class {
+	position: absolute;
+	width: 115px;
+	height: 114.635px;
+	left: 741.5px;
+	top: 0px;
+	overflow: visible;
+}
+.EMAIL_Class {
+	left: 59px;
+	top: 20.317px;
+	position: absolute;
+	overflow: visible;
+	width: 100px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+.CONTACT_US_Class {
+	left: 308px;
+	top: 20.317px;
+	position: absolute;
+	overflow: visible;
+	width: 202px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+.ADDRESS_Class {
+	left: 1089px;
+	top: 20.317px;
+	position: absolute;
+	overflow: visible;
+	width: 153px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+.SOCIAL_Class {
+	left: 1391px;
+	top: 20.317px;
+	position: absolute;
+	overflow: visible;
+	width: 117px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+.MIMail_Class {
+	margin-top: 103px;
+	left: -10px;
+	top: 202.317px;
+	overflow: visible;
+	width: 100px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(200,200,200,1);
+}
+.ID123456789_Class {
+	left: 340px;
+	top: 102.317px;
+	position: absolute;
+	overflow: visible;
+	width: 107px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(200,200,200,1);
+}
+.Facebook_Class {
+	left: 1398.5px;
+	top: 102.317px;
+	position: absolute;
+	overflow: visible;
+	width: 102px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(200,200,200,1);
+}
+.YouTube_Class {
+	left: 1404.5px;
+	top: 136.317px;
+	position: absolute;
+	overflow: visible;
+	width: 90px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(200,200,200,1);
+}
+.Instagram_Class {
+	left: 1396px;
+	top: 170.317px;
+	position: absolute;
+	overflow: visible;
+	width: 107px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(200,200,200,1);
+}
+.Twitter_Class {
+	left: 1412.5px;
+	top: 204.317px;
+	position: absolute;
+	overflow: visible;
+	width: 74px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(200,200,200,1);
+}
+.Dalvi_Nagar_Bandra_West_Mumbai_Class {
+	left: 1020px;
+	top: 102.317px;
+	position: absolute;
+	overflow: visible;
+	width: 271px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(200,200,200,1);
+}
+.Login_Image_Class {
+	filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	width: 1600px;
+	height: 800px;
+	left: 160px;
+	top: 605px;
+	overflow: visible;
+}
+.Login_Box_Class {
+	position: absolute;
+	width: 700px;
+	height: 700px;
+	left: 1010px;
+	top: 655px;
+	overflow: visible;
+}
+.Login_Box__Class {
+	fill: rgba(255,255,255,1);
+	z-index: -20;
+}
+.Login_Box_ {
+	filter: drop-shadow(-10px 10px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 719px;
+	height: 719px;
+	left: 0px;
+	top: 0px;
+}
+.Dont_have_an_Account__SIGN_UP_Class {
+	left: 219px;
+	top: 610px;
+	position: absolute;
+	overflow: visible;
+	width: 263px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: view;
+	--web-action-target: Sign_Up;
+	cursor: pointer;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 15px;
+	color: rgba(182,182,182,1);
+}
+.Login_Button_Class {
+	position: absolute;
+	width: 400px;
+	height: 80px;
+	left: 150px;
+	top: 500px;
+	overflow: visible;
+}
+.Login_Box_ba_Class {
+	fill: rgba(255,103,9,1);
+}
+.Login_Box_ba {
+	filter: drop-shadow(0px 10px 30px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 490px;
+	height: 170px;
+	left: 0px;
+	top: 0px;
+}
+.LOGIN_Class {
+	left: 150px;
+	top: 22px;
+	position: absolute;
+	overflow: visible;
+	width: 101px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+.Remember_Me_Class {
+	position: absolute;
+	width: 153px;
+	height: 20px;
+	left: 164px;
+	top: 296px;
+	overflow: visible;
+}
+.Check_Box_Class {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Check_Box {
+	position: absolute;
+	overflow: visible;
+	width: 20px;
+	height: 20px;
+	left: 0px;
+	top: 0px;
+}
+.Remember_Me_bd_Class {
+	left: 40px;
+	top: 1px;
+	position: absolute;
+	overflow: visible;
+	width: 114px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 15px;
+	color: rgba(182,182,182,1);
+}
+.Password_Class {
+	position: absolute;
+	width: 400px;
+	height: 48px;
+	left: 150px;
+	top: 223px;
+	overflow: visible;
+}
+.Password_Box_Class {
+	fill: rgba(157,157,157,0.102);
+}
+.Password_Box {
+	position: absolute;
+	overflow: visible;
+	width: 400px;
+	height: 48px;
+	left: 0px;
+	top: 0px;
+}
+.Password_bg_Class {
+	left: 20px;
+	top: 12px;
+	position: absolute;
+	overflow: visible;
+	width: 96px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgba(182,182,182,1);
+}
+.Mail_Class {
+	position: absolute;
+	width: 400px;
+	height: 48px;
+	left: 100px;
+	top: 145px;
+	overflow: visible;
+}
+.Mail_Box_Class {
+	fill: rgba(157,157,157,0.102);
+}
+.Mail_Box {
+	position: absolute;
+	overflow: visible;
+	width: 400px;
+	height: 48px;
+	left: 50px;
+	top: 0px;
+}
+.Mail_bj_Class {
+	left: 70px;
+	top: 12px;
+	position: absolute;
+	overflow: visible;
+	width: 70px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgba(182,182,182,1);
+}
+.WELCOME_Class {
+	left: 1277px;
+	top: 700px;
+	position: absolute;
+	overflow: visible;
+	width: 168px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+.LOGIN_bl_Class {
+	left: 842px;
+	top: 399px;
+	position: absolute;
+	overflow: visible;
+	width: 237px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 70px;
+	color: rgba(255,255,255,1);
+}
+.X_I_A_O_M_I_Class {
+	left: 417px;
+	top: 147px;
+	position: absolute;
+	overflow: visible;
+	width: 264px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: rgba(255,255,255,1);
+}
+.MI_Logo_bn_Class {
+	position: absolute;
+	width: 215px;
+	height: 214.317px;
+	left: 70px;
+	top: 70px;
+	overflow: visible;
+}
+.Top_Nav_Bar_Class {
+	position: absolute;
+	width: 821px;
+	height: 44px;
+	left: 1049px;
+	top: 72px;
+	overflow: visible;
+}
+.Elements_bp_Class {
+	position: absolute;
+	width: 821px;
+	height: 37px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.home_Class {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 91px;
+	white-space: nowrap;
+	transition: all 0.3s ease-out;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: view;
+	--web-action-target: Home;
+	cursor: pointer;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+.cart_Class {
+	left: 329px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 62px;
+	white-space: nowrap;
+	transition: all 0.3s ease-out;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: view;
+	--web-action-target: Cart;
+	cursor: pointer;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+.login_Class {
+	left: 440px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 79px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+.sign_up_Class {
+	left: 568px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 116px;
+	white-space: nowrap;
+	transition: all 0.3s ease-out;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: view;
+	--web-action-target: Sign_Up;
+	cursor: pointer;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+.products_Class {
+	left: 140px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 140px;
+	white-space: nowrap;
+	transition: all 0.3s ease-out;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: view;
+	--web-action-target: Products;
+	cursor: pointer;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+.Burger_Menu_Class {
+	position: absolute;
+	width: 38px;
+	height: 31px;
+	left: 783px;
+	top: 3px;
+	overflow: visible;
+}
+.Rectangle_1_Class {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_1 {
+	position: absolute;
+	overflow: visible;
+	width: 38px;
+	height: 8px;
+	left: 0px;
+	top: 0px;
+}
+.Rectangle_2_Class {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_2 {
+	position: absolute;
+	overflow: visible;
+	width: 30px;
+	height: 8px;
+	left: 8px;
+	top: 12px;
+}
+.Path_2_Class {
+	fill: rgba(255,255,255,1);
+}
+.Path_2 {
+	overflow: visible;
+	position: absolute;
+	width: 23px;
+	height: 7px;
+	left: 15px;
+	top: 24px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Line_Class {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line {
+	overflow: visible;
+	position: absolute;
+	width: 65px;
+	height: 5px;
+	left: 445px;
+	top: 44px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Check_Box input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+  }
+  
